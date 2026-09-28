@@ -1,0 +1,36 @@
+services:
+  backend:
+    build: .
+    container_name: mental-health-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      CORS_ORIGINS: "http://localhost:5500,http://127.0.0.1:5500"
+    volumes:
+      - ./data:/app/data:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    deploy:
+      resources:
+        limits:
+          memory: 2g
+          cpus: "1.5"
+
+  frontend:
+    image: nginx:alpine
+    container_name: mental-health-frontend
+    restart: unless-stopped
+    ports:
+      - "5500:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro
+    depends_on:
+      backend:
+        condition: service_healthy

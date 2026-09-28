@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "anxiety.txt::0",
+    "source_id": "anxiety.txt",
+    "topic": "anxiety",
+    "text": "Anxiety is a common emotional response that can occur when a person feels threatened, uncertain, or under pressure. Some anxiety can be a normal response to stressful situations, but persistent or excessive anxiety may interfere with everyday activities.\n\nAnxiety can involve worry, restlessness, difficulty concentrating, irritability, muscle tension, or changes in sleep. People can experience anxiety differently, and these signs do not by themselves establish a diagnosis.\n\nSimple coping strategies may include slow breathing, maintaining a regular routine, physical activity, reducing avoidable sources of stress, and talking with someone trustworthy. If anxiety is persistent, severe, or significantly affects daily functioning, a qualified mental health professional can provide appropriate assessment and support.",
+    "trust_tier": "ai_drafted_needs_review",
+    "reviewed_by": null,
+    "last_reviewed": null,
+    "citation_url": null
+  },
+  {
+    "chunk_id": "depression.txt::0",
+    "source_id": "depression.txt",
+    "topic": "depression",
+    "text": "Depression is more than ordinary sadness. It involves a persistent low mood, loss of interest or pleasure in most activities, and can affect sleep, appetite, energy, concentration, and self-worth for two weeks or longer.\n\nDepression can occur without an obvious trigger, and it does not reflect weakness or a personal failing. It is one of the most common mental health conditions and is generally treatable.\n\nCommon signs include feeling persistently down or empty, losing interest in things once enjoyed, changes in sleep or appetite, fatigue, difficulty concentrating, feelings of worthlessness or guilt, and in more severe cases, thoughts of death or self-harm.\n\nSupport options include talking with a qualified mental health professional, evidence-based therapies such as cognitive behavioral therapy, and in some cases medication prescribed by a doctor. Reaching out for support is a reasonable first step, and it often helps to also involve a trusted person who can check in over time.",
+    "trust_tier": "ai_drafted_needs_review",
+    "reviewed_by": null,
+    "last_reviewed": null,
+    "citation_url": null
+  },
+  {
+    "chunk_id": "exercise_and_mood.txt::0",
+    "source_id": "exercise_and_mood.txt",
+    "topic": "exercise and mood",
+    "text": "Regular physical activity is associated with improved mood, reduced anxiety, and better sleep. Even moderate activity, such as a daily walk, can have a measurable effect on emotional wellbeing over time.\n\nExercise appears to help through several mechanisms, including changes in brain chemistry, improved sleep quality, reduced physical tension, and a sense of accomplishment or routine. It does not need to be intense or prolonged to be beneficial; consistency matters more than intensity for most people.\n\nStarting small, such as ten minutes of walking, and building gradually can make activity easier to sustain than committing to an intense routine right away. Choosing an activity that feels enjoyable, rather than only effective, also improves the odds of sticking with it.\n\nPhysical activity can be a helpful part of managing stress, anxiety, or low mood, but it is not a replacement for professional treatment when symptoms are severe or persistent.",
+    "trust_tier": "ai_drafted_needs_review",
+    "reviewed_by": null,
+    "last_reviewed": null,
+    "citation_url": null
+  },
+  {
+    "chunk_id": "grounding_techniques.txt::0",
+    "source_id": "grounding_techniques.txt",
+    "topic": "grounding techniques",
+    "text": "Grounding techniques are simple exercises that help bring attention back to the present moment when someone feels overwhelmed, anxious, or disconnected from their surroundings.\n\nOne common method involves the senses: noticing five things you can see, four things you can touch, three things you can hear, two things you can smell, and one thing you can taste. This shifts attention away from distressing thoughts and toward immediate physical experience.\n\nOther grounding approaches include holding a cold object, pressing feet firmly into the floor and noticing the sensation, naming the current date, location, and time out loud, or describing a neutral object in detail.\n\nGrounding techniques are generally most helpful for moments of acute distress or anxiety rather than as a long-term treatment on their own. They can be a useful tool alongside other forms of support, such as therapy, for people who experience frequent anxiety or distress.",
+    "trust_tier": "ai_drafted_needs_review",
+    "reviewed_by": null,
+    "last_reviewed": null,
+    "citation_url": null
+  },
+  {
+    "chunk_id": "mental_health.txt::0",
+    "source_id": "mental_health.txt",
+    "topic": "mental health",
+    "text": "Mental health is an important part of overall wellbeing. It can affect how people think, feel, behave, handle stress, and interact with others. Mental wellbeing can change over time depending on life circumstances, relationships, sleep, physical health, and other factors.\n\nTaking care of mental wellbeing can include maintaining regular routines, getting enough sleep, staying physically active, spending time with supportive people, and making time for enjoyable or meaningful activities.\n\nWhen difficult emotions persist or begin to interfere with daily life, talking with a qualified mental health professional can be a useful step. A professional can help a person understand their situation and identify appropriate forms of support.",
+    "trust_tier": "ai_drafted_needs_review",
+    "reviewed_by": null,
+    "last_reviewed": null,
+    "citation_url": null
+  },
+  {
+    "chunk_id": "panic_attacks.txt::0",
+    "source_id": "panic_attacks.txt",
+    "topic": "panic attacks",
+    "text": "A panic attack is a sudden surge of intense fear or discomfort that peaks within minutes. It can involve a racing heart, shortness of breath, chest tightness, trembling, sweating, dizziness, or a feeling of losing control, even though there is no actual physical danger.\n\nPanic attacks can feel alarming, but they are not medically dangerous by themselves and typically pass within twenty to thirty minutes. Repeated, unexpected panic attacks along with ongoing worry about future attacks may be part of panic disorder.\n\nDuring a panic attack, slow, controlled breathing can help reduce physical symptoms. Naming what is happening internally, such as recognizing it as a panic attack rather than a medical emergency, can reduce the fear that intensifies the response. Staying in place rather than fleeing the situation, when it is safe to do so, can also help the body learn that the trigger is not dangerous.",
+    "trust_tier": "ai_drafted_needs_review",
+    "reviewed_by": null,
+    "last_reviewed": null,
+    "citation_url": null
+  },
+  {
+    "chunk_id": "panic_attacks.txt::1",
+    "source_id": "panic_attacks.txt",
+    "topic": "panic attacks",
+    "text": "If panic attacks are frequent, distressing, or begin to limit daily activities, a mental health professional can help identify triggers and provide effective treatment, which often includes therapy focused on the underlying anxiety.",
+    "trust_tier": "ai_drafted_needs_review",
+    "reviewed_by": null,
+    "last_reviewed": null,
+    "citation_url": null
+  },
+  {
+    "chunk_id": "seeking_help.txt::0",
+    "source_id": "seeking_help.txt",
+    "topic": "seeking help",
+    "text": "It is not always obvious when a difficult period has crossed into something that benefits from professional support. Some general signals include: symptoms lasting more than two weeks, difficulty functioning at work, school, or in relationships, withdrawal from people or activities that used to matter, and using substances to cope with emotions.\n\nOther signals include persistent physical symptoms without a clear medical cause, such as ongoing fatigue, appetite changes, or sleep disruption tied to emotional distress, as well as any thoughts of self-harm or feeling that life is not worth continuing.\n\nA mental health professional, such as a psychologist, psychiatrist, licensed counselor, or clinical social worker, can help assess what is happening and recommend appropriate support, which might include therapy, medication, or both. A primary care doctor is also a reasonable starting point and can provide referrals.",
+    "trust_tier": "ai_drafted_needs_review",
+    "reviewed_by": null,
+    "last_reviewed": null,
+    "citation_url": null
+  },
+  {
+    "chunk_id": "seeking_help.txt::1",
+    "source_id": "seeking_help.txt",
+    "topic": "seeking help",
+    "text": "Seeking help is not a sign of failure, and earlier support is often associated with better outcomes. If there is any concern about immediate safety, contacting emergency services or a crisis line takes priority over any other step.",
+    "trust_tier": "ai_drafted_needs_review",
+    "reviewed_by": null,
+    "last_reviewed": null,
+    "citation_url": null
+  },
+  {
+    "chunk_id": "sleep.txt::0",
+    "source_id": "sleep.txt",
+    "topic": "sleep",
+    "text": "Sleep plays an important role in physical and mental wellbeing. Poor sleep can affect concentration, mood, energy, and the ability to manage everyday stress.\n\nA consistent sleep schedule can support healthy sleep habits. Going to bed and waking up at similar times each day can help establish a regular routine. A relaxing bedtime routine and a comfortable, quiet sleeping environment may also be helpful.\n\nCaffeine, nicotine, and stimulating activities close to bedtime can interfere with sleep for some people. If sleep problems continue or regularly interfere with daytime functioning, discussing them with a healthcare professional can be appropriate.",
+    "trust_tier": "ai_drafted_needs_review",
+    "reviewed_by": null,
+    "last_reviewed": null,
+    "citation_url": null
+  },
+  {
+    "chunk_id": "stress.txt::0",
+    "source_id": "stress.txt",
+    "topic": "stress",
+    "text": "Stress is a response that can occur when a person feels that the demands of a situation are difficult to manage. Short periods of stress can be a normal part of life, while prolonged or intense stress may affect wellbeing.\n\nPeople may experience stress through changes in mood, concentration, sleep, energy, or physical tension. Helpful approaches can include breaking large tasks into smaller steps, taking regular breaks, practicing slow breathing, staying physically active, and talking with a trusted person.\n\nThere is no single coping strategy that works for everyone. If stress becomes overwhelming, lasts for a long time, or substantially interferes with daily life, seeking support from a qualified professional may be helpful.",
+    "trust_tier": "ai_drafted_needs_review",
+    "reviewed_by": null,
+    "last_reviewed": null,
+    "citation_url": null
+  }
+]

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mindful</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="chat-container">
+
+        <header class="chat-header">
+            <h1>Mindful</h1>
+            <p>A quiet space to talk.</p>
+        </header>
+
+
+        <section id="chat-messages" class="chat-messages">
+
+            <div class="message bot-message">
+                <p>
+                    Hi, I'm here to listen.
+                    What's on your mind?
+                </p>
+            </div>
+
+        </section>
+
+
+        <form id="chat-form" class="chat-input-area">
+
+            <input
+                type="text"
+                id="message-input"
+                placeholder="Type your message..."
+                autocomplete="off"
+                required
+            >
+
+            <button type="submit" id="send-button">
+                Send
+            </button>
+
+        </form>
+
+
+        <footer class="chat-footer">
+            <p>Your conversation is private.</p>
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
