@@ -9,7 +9,7 @@ import logging
 
 from groq import Groq, GroqError
 
-from knowledge_base import Chunk, KnowledgeBase
+from knowledge import Chunk, KnowledgeBase
 
 logger = logging.getLogger("mental_health_chatbot.chatbot")
 

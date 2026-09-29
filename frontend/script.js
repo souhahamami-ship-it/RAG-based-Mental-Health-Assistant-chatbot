@@ -3,16 +3,18 @@ const messageInput = document.getElementById("message-input");
 const chatMessages = document.getElementById("chat-messages");
 const sendButton = document.getElementById("send-button");
 let sessionBlocked = false;
-
+let isSending = false;          // ADD THIS LINE
 /*
     Create one session ID for this browser session.
 */
 
-let sessionId = localStorage.getItem("session_id");
+
+let sessionId = sessionStorage.getItem("session_id");      // AFTER
+
 
 if (!sessionId) {
     sessionId = crypto.randomUUID();
-    localStorage.setItem("session_id", sessionId);
+    sessionStorage.setItem("session_id", sessionId); 
 }
 
 console.log("Session ID:", sessionId);
@@ -103,7 +105,7 @@ chatForm.addEventListener("submit", async (event) => {
 
     event.preventDefault();
     // Do nothing if session is blocked
-    if (sessionBlocked) {
+    if (sessionBlocked || isSending) {
         return;
     }
 
@@ -122,7 +124,9 @@ chatForm.addEventListener("submit", async (event) => {
     messageInput.value = "";
 
     // Disable send button
-    sendButton.disabled = true;
+    isSending = true;
+sendButton.disabled = true;
+messageInput.disabled = true;
 
 
     try {
@@ -141,7 +145,10 @@ chatForm.addEventListener("submit", async (event) => {
     }
 
 
-    sendButton.disabled = false;
+    isSending = false;
 
-    messageInput.focus();
+if (!sessionBlocked) {
+    sendButton.disabled = false;
+    messageInput.disabled = false;
+    messageInput.focus();}
 });

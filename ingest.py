@@ -45,7 +45,7 @@ def ingest(input_dir: str, output_path: str, trust_tier: str, reviewed_by: str |
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build the knowledge base JSON from raw text sources.")
-    parser.add_argument("--input", default="data/raw", help="Folder of raw .txt source files.")
+    parser.add_argument("--input", default="data", help="Folder of raw .txt source files.")
     parser.add_argument("--output", default="data/knowledge.json", help="Path to write the chunked JSON to.")
     parser.add_argument(
         "--trust-tier",
